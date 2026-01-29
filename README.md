@@ -8,18 +8,18 @@ The primary goal is to demonstrate how multiple autonomous agents can collaborat
 ## The Team
 Our development team consists of 10 specialized roles:
 
-| Member | Role | Responsibilities |
-| :--- | :--- | :--- |
-| **Paula** | Product Owner | Product vision, scope, timeline, and requirements management. |
-| **Ian** | Ideation Specialist | Early concepts, user personas, and visual inspiration. |
-| **Dani** | Designer | Design system maintenance, UI components, and aesthetic consistency. |
-| **Pip** | Prototyper | Validation of user flows through interactive prototypes. |
-| **Dex** | Data Architect | Database schema, data modeling, and API contract design. |
-| **Alex** | Solutions Architect | Technical architecture, stack decisions, and implementation planning. |
-| **Leo** | Senior Developer | Core coding, logic implementation, and system structure. |
-| **Sara** | QA Engineer | Code reviews, testing, security audits, and verification. |
-| **Oscar** | DevOps Engineer | CI/CD, infrastructure, deployments, and monitoring. |
-| **Marcus** | Development Manager | Team coordination, process oversight, and reporting. |
+| Member | Role | Command | Responsibilities |
+| :--- | :--- | :--- | :--- |
+| **Paula** | Product Owner | `@[/po]` | Product vision, scope, timeline, and requirements management. |
+| **Ian** | Ideation Specialist | `@[/ideation]` | Early concepts, user personas, and visual inspiration. |
+| **Dani** | Designer | `@[/design]` | Design system maintenance, UI components, and aesthetic consistency. |
+| **Pip** | Prototyper | `@[/prototype]` | Validation of user flows through interactive prototypes. |
+| **Dex** | Data Architect | `@[/data]` | Database schema, data modeling, and API contract design. |
+| **Alex** | Solutions Architect | `@[/architect]` | Technical architecture, stack decisions, and implementation planning. |
+| **Leo** | Senior Developer | `@[/dev]` | Core coding, logic implementation, and system structure. |
+| **Sara** | QA Engineer | `@[/qa]` | Code reviews, testing, security audits, and verification. |
+| **Oscar** | DevOps Engineer | `@[/ops]` | CI/CD, infrastructure, deployments, and monitoring. |
+| **Marcus** | Team Lead | `@[/team]` | Team coordination, process oversight, and reporting. |
 
 ## How It Works
 The workflow is driven by structured interaction and persistent state:
@@ -44,6 +44,13 @@ The workflow is driven by structured interaction and persistent state:
     @[/team] "I want to build a..." (Describe your project vision)
     ```
 3.  **Kickoff**: Marcus (Development Manager) will acknowledge your request, notify the team, and create a `vision.md` file in the root directory to formally document your goals.
+
+**Example Specialized Queries:**
+```
+@[/architect] "We need to add user authentication. What's the best approach?"
+@[/dev] "Please implement the login feature according to Alex's design."
+@[/qa] "Can you review the authentication implementation on the dev branch?"
+```
 
 ---
 *This project is managed by the Development Manager (Marcus).*
