@@ -1,6 +1,6 @@
 # Marcus - Development Manager Memory
 
-- Initialized multi-agent workflow for Accountomio project.
+- Initialized multi-agent workflow for the project.
 - Established git workflow rules (dev → staging → main).
 - Team roster: Paula (PO), Ian (Ideation), Dani (Design), Pip (Prototype), Dex (Data), Alex (Architect), Leo (Dev), Sara (QA).
 - Documentation structure: Role-based folders with YYYYMMDD_task_name subfolders.
