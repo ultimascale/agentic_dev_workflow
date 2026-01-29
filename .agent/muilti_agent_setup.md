@@ -15,8 +15,7 @@ We will implement a multi-agent system where different "personae" handle specifi
 | **Leo** | Senior Developer | `/dev` | Core coding, structure, logic implementation. |
 | **Sara** | QA Engineer | `/qa` | Code review, testing, verification, security audits. |
 | **Oscar** | DevOps Engineer | `/ops` | Deployments, infrastructure, monitoring, CI/CD. |
-| **Marcus** | Development Manager | `/team` | Project coordination, team management, process oversight. |
-| **Team** | Full Dev Team | `/team` | Handoffs, status reports, and meta-coordination. |
+| **Marcus** | Development Manager (Team Lead) | `/team` | Project coordination, team management, process oversight, handoffs. |
 
 ## Implementation Details
 

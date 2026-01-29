@@ -34,5 +34,16 @@ The workflow is driven by structured interaction and persistent state:
 - **Verification**: Every change must be verified by the appropriate specialist (e.g., QA review).
 - **Aesthetics**: UI-related work prioritizes premium, modern design principles.
 
+## 🚀 Usage / Getting Started
+
+**Prerequisite**: Ensure you have the agentic workflow environment set up.
+
+1.  **Checkout**: Clone this repository to your local machine.
+2.  **Define Vision**: To start a new project or feature, use the following slash command to introduce yourself to the Team Lead:
+    ```
+    @[/team] "I want to build a..." (Describe your project vision)
+    ```
+3.  **Kickoff**: Marcus (Development Manager) will acknowledge your request, notify the team, and create a `vision.md` file in the root directory to formally document your goals.
+
 ---
 *This project is managed by the Development Manager (Marcus).*

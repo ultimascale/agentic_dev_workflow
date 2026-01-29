@@ -2,7 +2,7 @@
 
 ## General
 
-- **[Best Practices & Clean Code Guidelines](./development_manager/20260121_best_practices/best_practices.md)** (MUST READ)
+- **[Best Practices & Clean Code Guidelines](./best_practices.md)** (MUST READ)
 - User-in-the-loop approach (AI asks for all major decisions, especially for tech stack / architecture options)
 - Component-driven workflow (with Storybook)
 - Mission control initialization
